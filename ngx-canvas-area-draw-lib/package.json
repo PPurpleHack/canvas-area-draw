@@ -1,0 +1,39 @@
+{
+  "name": "ngx-canvas-area-draw",
+  "version": "2.0.0",
+  "license": "MIT",
+  "description": "Angular v7 Directive to draw polygons over an image using canvas",
+  "author": "Carlos Ferras <c4rlos.ferra5@gmail.com>",
+  "private": false,
+  "homepage": "https://github.com/carlos-ferras/ngx-canvas-area-draw#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-ferras/ngx-canvas-area-draw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlos-ferras/ngx-canvas-area-draw/issues"
+  },
+  "keywords": [
+    "ngx-canvas-area-draw",
+    "ng2-canvas-area-draw",
+    "angular-canvas-area-draw",
+    "canvas-area-draw",
+    "image-area-draw",
+    "canvas-draw",
+    "angular",
+    "ngx",
+    "ng2",
+    "canvas",
+    "draw",
+    "image",
+    "polygon",
+    "cropper"
+  ],
+  "scripts": {
+    "docs:generate": "../../node_modules/.bin/compodoc -p ./tsconfig.lib.json -d ../../docs -n 'ngx-canvas-area-draw documentation' --disablePrivate"
+  },
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  }
+}
